@@ -10,8 +10,8 @@ def get_bread_order():
     while True:
         order = input("لطفا نوع نان مورد نظر خود را انتخاب کنید (بربری, لواش, تافتون, سنگگ, باگت): ")
         if order in prices:
-            quantity = int(input(f"چند عدد نان {order} می‌خواهید؟ "))  # تعداد نان درخواستی
-            return order, quantity  # بازگشت نوع و تعداد
+            quantity = int(input(f"چند عدد نان {order} می‌خواهید؟ "))  
+            return order, quantity  
         else:
             print("متاسفیم، نوع نان مورد نظر موجود نیست. لطفا نوع دیگری را انتخاب کنید.")
 
