@@ -1,3 +1,5 @@
+#AMIN LOOP
+
 addition = lambda numbers: sum(numbers)
 
 subtraction = lambda numbers: numbers[0] - sum(numbers[1:]) if len(numbers) >= 2 else numbers[0]
@@ -8,7 +10,9 @@ division = lambda numbers, d: list(map(lambda x: x / d if d != 0 else 'Error - d
 
 
 def get_number(prompt, error_prompt="Please enter a valid number."):
+    
     input_number = input(prompt)
+    
     while not input_number.isdigit():
         print(error_prompt)
         input_number = input(prompt)
