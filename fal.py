@@ -1,3 +1,5 @@
+#AMIN LOOP
+
 import random
 
 first_name = input('first name: ')
