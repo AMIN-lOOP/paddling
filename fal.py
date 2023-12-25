@@ -1,11 +1,9 @@
 import random
 
-fulname = input('first name: ')
-
+first_name = input('first name: ')
 print(" ")
 
-lasname = input('last name: ')
-
+last_name = input('last name: ')
 print(" ")
 
 fal_hafez = [
@@ -41,11 +39,10 @@ fal_hafez = [
     'من اندر هوای روی تو بی تاب و قرارم'
 ]
 
+selected_fal = random.choice(fal_hafez)
 print(" ")
 
-print(f'{selected_fal}\n\nHoroscope provided by: {first_name} {last_name}')
-print('horoscope ready: ')
-
+print("Horoscope ready: ")
 print(" ")
 
-print(random.choice(fal_hafez))
+print(selected_fal)
