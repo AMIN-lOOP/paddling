@@ -1,3 +1,5 @@
+#AMIN LOOP
+
 import random
 
 print("ROCK - PAPER - SCISSOR")
